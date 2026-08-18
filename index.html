@@ -276,9 +276,6 @@ div.spacer{height:20px}
     <a class="nav-item active" onclick="showPanel('dashboard')">
       <span class="nav-item-icon">🏠</span> Dashboard
     </a>
-    <a class="nav-item" onclick="showPanel('quicklinks')">
-      <span class="nav-item-icon">🔗</span> Quick Links
-    </a>
     <a class="nav-item" onclick="showPanel('wifi')">
       <span class="nav-item-icon">📶</span> Wi-Fi & Network
     </a>
@@ -359,16 +356,31 @@ div.spacer{height:20px}
         <p class="panel-desc">Your everyday reference for tech support, tools, and resources at SRDS.</p>
       </div>
 
+      <a href="onboarding-hub.html" style="display:flex;align-items:center;gap:16px;padding:20px 24px;border-radius:14px;background:linear-gradient(135deg,var(--blue),#1e4fa8);color:white;text-decoration:none;margin-bottom:20px;box-shadow:0 4px 14px rgba(42,111,219,0.3)">
+        <div style="font-size:32px">🚀</div>
+        <div>
+          <div style="font-size:17px;font-weight:600">New Faculty 2026 — Start Here</div>
+          <div style="font-size:13px;opacity:0.9">Your onboarding hub for everything tech at SRDS</div>
+        </div>
+      </a>
+
       <div class="quick-grid">
         <a class="quick-link" href="https://app.schoology.com" target="_blank"><div class="quick-icon">📗</div><div class="quick-label">Schoology</div><div class="quick-sub">LMS & Gradebook</div></a>
         <a class="quick-link" href="#" target="_blank"><div class="quick-icon">📊</div><div class="quick-label">PowerSchool</div><div class="quick-sub">Attendance & Grades</div></a>
         <a class="quick-link" href="https://mail.google.com" target="_blank"><div class="quick-icon">📧</div><div class="quick-label">Gmail</div><div class="quick-sub">SRDS Email</div></a>
+        <a class="quick-link" href="https://calendar.google.com" target="_blank"><div class="quick-icon">📅</div><div class="quick-label">Google Calendar</div><div class="quick-sub">Schedule & Events</div></a>
         <a class="quick-link" href="https://drive.google.com" target="_blank"><div class="quick-icon">📁</div><div class="quick-label">Google Drive</div><div class="quick-sub">Files & Docs</div></a>
+        <a class="quick-link" href="https://meet.google.com" target="_blank"><div class="quick-icon">🎥</div><div class="quick-label">Google Meet</div><div class="quick-sub">Video Calls</div></a>
         <a class="quick-link" href="https://saddleriverday.freshdesk.com/" target="_blank"><div class="quick-icon">🎟️</div><div class="quick-label">Tech Tickets</div><div class="quick-sub">Freshdesk Portal</div></a>
         <a class="quick-link" href="https://sites.google.com/saddleriverday.org/srds-staff-directory/last-name-a-h" target="_blank"><div class="quick-icon">👥</div><div class="quick-label">Faculty Directory</div><div class="quick-sub">Staff contacts</div></a>
         <a class="quick-link" href="https://myaccount.google.com/security" target="_blank"><div class="quick-icon">🔐</div><div class="quick-label">Account Security</div><div class="quick-sub">2-Step setup</div></a>
         <a class="quick-link" onclick="showPanel('help')"><div class="quick-icon">🛟</div><div class="quick-label">Get Help</div><div class="quick-sub">3-step process</div></a>
         <a class="quick-link" href="https://srds.ai" target="_blank"><div class="quick-icon">🤖</div><div class="quick-label">srds.ai</div><div class="quick-sub">AI Policy & Resources</div></a>
+        <a class="quick-link" href="tech-reference.html"><div class="quick-icon">📚</div><div class="quick-label">Faculty Tech Shortcut</div><div class="quick-sub">Tech basics reference</div></a>
+        <a class="quick-link" href="https://www.benq.com/en-us/education/teachers-guides.html" target="_blank"><div class="quick-icon">🖥️</div><div class="quick-label">BenQ Teacher Guides</div><div class="quick-sub">Interactive board help</div></a>
+        <a class="quick-link" href="https://edpuzzle.com" target="_blank"><div class="quick-icon">📹</div><div class="quick-label">Edpuzzle</div></a>
+        <a class="quick-link" href="https://kahoot.com" target="_blank"><div class="quick-icon">🎮</div><div class="quick-label">Kahoot!</div></a>
+        <a class="quick-link" href="https://bookcreator.com" target="_blank"><div class="quick-icon">📖</div><div class="quick-label">Book Creator</div></a>
       </div>
 
       <div class="grid-2">
@@ -400,47 +412,6 @@ div.spacer{height:20px}
       <div class="spacer"></div>
       <div class="hl-amber hl">
         🎁 <strong>Monthly Raffle:</strong> We draw three gift card winners each month from the pool of submitted tech tickets. Submit tickets — it pays off!
-      </div>
-    </div>
-
-    <!-- QUICK LINKS -->
-    <div class="panel" id="panel-quicklinks">
-      <div class="panel-header">
-        <div class="panel-eyebrow">Daily Use</div>
-        <div class="panel-title">Quick Links</div>
-        <p class="panel-desc">Everything you open every day, in one place.</p>
-      </div>
-      <div class="quick-grid" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr))">
-        <a class="quick-link" href="https://app.schoology.com" target="_blank"><div class="quick-icon">📗</div><div class="quick-label">Schoology</div><div class="quick-sub">LMS</div></a>
-        <a class="quick-link" href="#" target="_blank"><div class="quick-icon">📊</div><div class="quick-label">PowerSchool</div><div class="quick-sub">SIS</div></a>
-        <a class="quick-link" href="https://mail.google.com" target="_blank"><div class="quick-icon">📧</div><div class="quick-label">Gmail</div></a>
-        <a class="quick-link" href="https://calendar.google.com" target="_blank"><div class="quick-icon">📅</div><div class="quick-label">Google Calendar</div></a>
-        <a class="quick-link" href="https://drive.google.com" target="_blank"><div class="quick-icon">📁</div><div class="quick-label">Google Drive</div></a>
-        <a class="quick-link" href="https://meet.google.com" target="_blank"><div class="quick-icon">🎥</div><div class="quick-label">Google Meet</div></a>
-        <a class="quick-link" href="https://saddleriverday.freshdesk.com/" target="_blank"><div class="quick-icon">🎟️</div><div class="quick-label">Freshdesk</div><div class="quick-sub">Tech Tickets</div></a>
-        <a class="quick-link" href="https://myaccount.google.com/security" target="_blank"><div class="quick-icon">🔐</div><div class="quick-label">Account Security</div></a>
-        <a class="quick-link" href="https://sites.google.com/saddleriverday.org/srds-staff-directory/last-name-a-h" target="_blank"><div class="quick-icon">👥</div><div class="quick-label">Faculty Directory</div></a>
-        <a class="quick-link" href="https://edpuzzle.com" target="_blank"><div class="quick-icon">📹</div><div class="quick-label">Edpuzzle</div></a>
-        <a class="quick-link" href="https://kahoot.com" target="_blank"><div class="quick-icon">🎮</div><div class="quick-label">Kahoot!</div></a>
-        <a class="quick-link" href="https://bookcreator.com" target="_blank"><div class="quick-icon">📖</div><div class="quick-label">Book Creator</div></a>
-      </div>
-
-      <div class="panel-header" style="margin-top:32px">
-        <div class="panel-eyebrow">Tech Team</div>
-        <div class="panel-title" style="font-size:20px">SRDS Tech Tools</div>
-        <p class="panel-desc">Built by the Tech Team, for the Tech Team and faculty.</p>
-      </div>
-
-      <a href="onboarding-hub.html" style="display:flex;align-items:center;gap:16px;padding:20px 24px;border-radius:14px;background:linear-gradient(135deg,var(--blue),#1e4fa8);color:white;text-decoration:none;margin-bottom:16px;box-shadow:0 4px 14px rgba(42,111,219,0.3)">
-        <div style="font-size:32px">🚀</div>
-        <div>
-          <div style="font-size:17px;font-weight:600">New Faculty 2026 — Start Here</div>
-          <div style="font-size:13px;opacity:0.9">Your onboarding hub for everything tech at SRDS</div>
-        </div>
-      </a>
-
-      <div class="quick-grid" style="grid-template-columns:repeat(auto-fill,minmax(160px,1fr))">
-        <a class="quick-link" href="tech-reference.html"><div class="quick-icon">📚</div><div class="quick-label">Faculty Tech Shortcut</div></a>
       </div>
     </div>
 
